@@ -2,3 +2,37 @@
 .settings
 salesforce.schema
 Referenced Packages
+# Heroku local
+.heroku/
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+venv/
+ENV/
+env/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files (optional, e.g., SQLite during dev)
+*.sqlite3
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Migrations (optional, if you want to exclude)
+migrations/
+
+
+.yml
+tut
+
