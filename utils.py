@@ -4,5 +4,6 @@ def serialize_merch(merch):
         'name': merch.name,
         'category': merch.category,
         'price': merch.price,
-        'description': merch.description
+        'description': merch.description,
+        'images': [img.url for img in merch.images]
     }
