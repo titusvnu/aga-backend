@@ -1,38 +1,34 @@
-.project
-.settings
-salesforce.schema
-Referenced Packages
-# Heroku local
-.heroku/
-# Byte-compiled files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Environment
-venv/
-ENV/
-env/
-.env
+# Flas
+instance/
+*.log
+*.db
 
-# OS-specific files
+# Environment variables
+.env
+.flaskenv
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# Migrations (optional – only ignore if you recreate them each time)
+# migrations/
+
+# OS junk
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Python virtualenv
+venv/
+env/
+ENV/
 
-# Database files (optional, e.g., SQLite during dev)
-*.sqlite3
+# Pytest cache
+.pytest_cache/
 
-# IDE/editor folders
-.vscode/
-.idea/
-
-# Migrations (optional, if you want to exclude)
-migrations/
-
-
-.yml
-tut
-
+# Compiled binary
+*.so
